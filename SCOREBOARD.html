@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./SCOREBOARD.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Shrikhand:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <img class="background-icon" alt="" src="./public/SCOREBOARDbackground.png" />
+
+      <button class="xbutton" id="xbutton"></button>
+      <table class="scoretable" id="ScoreboardTable">
+        <tr class="tablerow">
+          <th class="place">Place</th>
+          <th class="player">Player</th>
+          <th class="score">Score</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="place">1</th>
+          <th class="player">Player</th>
+          <th class="score">Score</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="place">2</th>
+          <th class="player">Player</th>
+          <th class="score">Score</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="place">3</th>
+          <th class="player">Player</th>
+          <th class="score">Score</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="place">4</th>
+          <th class="player">Player</th>
+          <th class="score">Score</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="place">5</th>
+          <th class="player">Player</th>
+          <th class="score">Score</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="place">6</th>
+          <th class="player">Player</th>
+          <th class="score">Score</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="place">7</th>
+          <th class="player">Player</th>
+          <th class="score">Score</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="place">8</th>
+          <th class="player">Player</th>
+          <th class="score">Score</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="place">9</th>
+          <th class="player">Player</th>
+          <th class="score">Score</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="place">10</th>
+          <th class="player">Player</th>
+          <th class="score">Score</th>
+        </tr>
+      </table>
+    </div>
+
+    <script>
+      var xbutton = document.getElementById("xbutton");
+      if (xbutton) {
+        xbutton.addEventListener("click", function (e) {
+          window.location.href = "./HOME.html";
+        });
+      }
+      </script>
+  </body>
+</html>

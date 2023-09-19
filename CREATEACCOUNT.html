@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./CREATEACCOUNT.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Shrikhand:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <img class="background-icon1" alt="" src="./public/CREATEACCOUNTbackground.png" />
+
+      <button class="createaccount1" autofocus id="CreateAccount">Create Account</button>     </button>
+      <button class="x-button" id="xButton"></button>
+      <input class="password" type="text" placeholder="Password" maxlength="20" />
+
+      <input class="username" type="text" placeholder="Username" maxlength="20" />
+    </div>
+
+    <script>
+      var rectangle202 = document.getElementById("rectangle202");
+      if (rectangle202) {
+        rectangle202.addEventListener("click", function (e) {
+          window.location.href = "./HOME.html";
+        });
+      }
+      
+      var xButton = document.getElementById("xButton");
+      if (xButton) {
+        xButton.addEventListener("click", function (e) {
+          window.location.href = "./LOGIN.html";
+        });
+      }
+      var CreateAccount = document.getElementById("CreateAccount");
+      if (CreateAccount) {
+        CreateAccount.addEventListener("click", function (e) {
+          window.location.href = "./HOME.html";
+        });
+      }
+      </script>
+  </body>
+</html>

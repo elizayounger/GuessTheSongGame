@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./SCOREBOARD.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Shrikhand:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <img class="background-icon" alt="" src="./public/SCOREbackground.png" />
+      <button class="xbutton" id="xbutton"></button>
+
+      <table class="scoretable" id="ScoreboardTable">
+        <tr class="tablerow">
+          <th class="question">1.</th>
+          <th class="answer">Answer</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="question">2.</th>
+          <th class="answer">Answer</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="question">3.</th>
+          <th class="answer">Answer</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="question">4.</th>
+          <th class="answer">Answer</th>
+        <tr class="tablerow">
+          <th class="question">5.</th>
+          <th class="answer">Answer</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="question">6.</th>
+          <th class="answer">Answer</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="question">7.</th>
+          <th class="answer">Answer</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="question">8.</th>
+          <th class="answer">Answer</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="question">9.</th>
+          <th class="answer">Answer</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="question">10.</th>
+          <th class="answer">Answer</th>
+        </tr>
+        <tr class="tablerow">
+          <th class="question" id="total">TOTAL:</th>
+          <th class="answer" id="totalscore">10</th>
+        </tr>
+      </table>
+
+    </div>
+
+    <script>
+      var xbutton = document.getElementById("xbutton");
+      if (xbutton) {
+        xbutton.addEventListener("click", function (e) {
+          window.location.href = "./HOME.html";
+        });
+      }
+      </script>
+  </body>
+</html>

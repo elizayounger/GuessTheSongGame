@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./LOGIN.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Shrikhand:wght@400&display=swap"
+    />
+  </head>
+  <body>
+    <div class="layout">
+      <img class="background-icon" alt="" src="./public/LOGINbackground.png" />
+
+      <button class="createaccount" autofocus id="createAccount">Create Account</button>
+      <button class="submit1" autofocus id="SubmitButton">Submit</button>
+      <button class="x-button" id="xButton"></button>
+
+      <input class="password" type="text" maxlength="20" placeholder="Password" />
+      <input class="username" type="text" maxlength="20" placeholder="Username" />
+    </div>
+
+    <script>
+      var createAccount = document.getElementById("createAccount");
+      if (createAccount) {
+        createAccount.addEventListener("click", function (e) {
+          window.location.href = "./CREATEACCOUNT.html";
+        });
+      }
+
+      var SubmitButton = document.getElementById("SubmitButton");
+      if (SubmitButton) {
+        SubmitButton.addEventListener("click", function (e) {
+          window.location.href = "./HOME.html";
+        });
+      }
+
+      var xButton = document.getElementById("xButton");
+      if (xButton) {
+        xButton.addEventListener("click", function (e) {
+          window.location.href = "./index.html";
+        });
+      }
+      </script>
+  </body>
+</html>

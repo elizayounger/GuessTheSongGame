@@ -1,0 +1,119 @@
+.background-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.layout {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.createaccount {
+  position: absolute;
+  top: calc(75%);
+  left: calc(30%);
+  width: 43.5vw;
+  height: 11.5vh;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--color-deepskyblue);
+  color: var(--color-steelblue);
+  border-radius: var(--br-3xs);
+  font-family: var(--font-shrikhand);
+  font-size: 50px;
+  text-transform: capitalize;
+  text-align: center;
+  cursor: pointer;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  z-index: 1;
+  -webkit-text-stroke: 1.6px #2f2f2f;
+}
+.submit1 {
+  position: absolute;
+  top: calc(62%);
+  left: calc(30%);
+  width: 43.5vw;
+  height: 11.5vh;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fdc662;
+  color: var(--color-steelblue);
+  font-family: var(--font-shrikhand);
+  font-size: 90.56px;
+  text-transform: capitalize;
+  cursor: pointer;
+  flex-shrink: 0;
+  gap: var(--gap-3xs);
+  z-index: 1;
+  text-align: center;
+  border-radius: var(--br-3xs);
+  -webkit-text-stroke: 1.6px #2f2f2f;
+}
+.username {
+  position: absolute;
+  top: calc(30%);
+  left: calc(10%);
+  width: 80vw;
+  height: 13vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  background-color: #fdc662;
+  border: 0;
+  font-family: var(--font-shrikhand);
+  font-size: 90.56px;
+  text-align: center;
+}
+.password {
+  position: absolute;
+  top: calc(45%);
+  left: calc(10%);
+  width: 80vw;
+  height: 13vh;
+  background-color: transparent;
+  border: 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    background-color: #fdc662;
+  font-family: var(--font-shrikhand);
+  font-size: 90.56px;
+}
+input::placeholder {
+  text-align: center;
+}
+.x-button {
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    width: 8vw;
+    height: 8vw;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(./public/x-button@2x.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.x-button:hover {
+  animation: 1s ease 0s infinite normal none shadow-inset-center;
+  opacity: 1;
+}
+@media screen and (max-width: 1200px) {
+  .password:hover,
+  .username:hover {
+    cursor: text;
+  }
+}
