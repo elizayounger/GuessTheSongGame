@@ -31,7 +31,7 @@ To set up and run Guess The Song, follow these steps:
 3. Navigate to the project directory:
 
     ```bash
-    cd swg3-group-1
+    cd GuessTheSongGame
 
 4. Install the project's dependencies using pipenv (If you do not already have pip and pipenv installed you must do so before proceeding):
 
