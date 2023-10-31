@@ -25,8 +25,7 @@ To set up and run Guess The Song, follow these steps:
    ```bash
    git clone git@github.com:elizayounger29/GuessTheSongGame.git
 
-2. Once in the directory of the cloned folder, navigate to the spotify_api.py file in the game logic folder and open it in pycharm. Enter the Spotify Client Id and Client Secret provided to you via Slack
-[Please Note: The client Id and Secret were included in a private message to Sophia (Lead Instructor, Full stack) on slack]
+2. Once in the directory of the cloned folder, navigate to the spotify_api.py file in the game logic folder and open. Enter your Spotify Client Id and Client Secret.
 
 3. Navigate to the project directory:
 
